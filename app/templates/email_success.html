@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='/img/flowers.jpg') }}')">
+        <div class="overlay"></div>
+        <div class="container" style="height: 30vh"></div>       
+    </header>
+
+    <h1 style="width: 50%; font-size: 20px; margin: 0 auto;">
+        Your email was sent successfully. Thanks for reaching out.
+        I'll get back to you as soon as I can.
+    </h1>
+{% endblock %}

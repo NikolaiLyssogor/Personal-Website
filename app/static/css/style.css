@@ -1,0 +1,94 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#mainNav {
+    position: absolute;
+    background-color: whitesmoke;
+    background: transparent;
+}
+
+#mainNav .navbar-nav {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+    color: whitesmoke;
+    padding-right: 20px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a:focus,
+#mainNav .navbar-nav > li.nav-item > a:hover {
+    text-decoration: none;
+    color:rgb(119, 119, 119)
+}
+
+header.masthead {
+    margin-bottom: 40px;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    z-index: -1;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+header.masthead .container {
+    height: 60vh;
+}
+
+header.masthead .site-heading {
+    text-align: center;
+    color: whitesmoke;
+    padding: 200px 0 150px;
+}
+
+header.masthead .site-heading h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Posts {
+    margin-bottom: 5%;
+}
+
+.card {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.card > a {
+    color: black;
+}
+
+.card > a:focus, .card > a:hover {
+    color: #787a00;
+    text-decoration: none;
+}
+
+.card > a > .card-body > .card-title {
+    font-weight: 550;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card > a > .card-body > .card-text {
+    font-size: 15px;
+    margin-top: 0;
+    padding-left: 3px;
+}
+.card > footer {
+    font-style: italic;
+    color: rgb(119, 119, 119);
+    padding-left: 3px;
+}
+
+article p {
+    margin: 0;
+    padding: 0;
+}

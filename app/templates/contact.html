@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='/img/flowers.jpg') }}')">
+        <div class="overlay"></div>
+        <div class="container" style="height: 30vh"></div>       
+    </header>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <h3>Send me an email</h3>
+        <hr>
+            {{ wtf.quick_form(form) }}
+        <hr>
+    </div>
+{% endblock %}
